@@ -274,3 +274,44 @@ input[type=submit] {
 
     }
 }
+
+@media screen and (max-width: 768px) {
+    #logo {
+    float: left;
+    margin-left: 20px;
+  }
+    nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+  }
+    .main-section {
+  float: left;
+  width: 95%;
+  max-width: 768px;
+  padding: 30px;
+  margin-left: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+    .auth-image {
+  float: left;
+  width: 340px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  }
+  p {
+      padding-right: 0px;
+      margin-right: 0px;
+
+    }
+    .sidebar {
+    float: left;
+    width: 95%;
+    max-width: 768px;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+}
