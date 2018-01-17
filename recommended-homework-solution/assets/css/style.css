@@ -269,6 +269,13 @@ input[type=submit] {
   margin-top: 10px;
   margin-right: 25px;
   }
+    .work {
+  position: relative;
+  float: left;
+  width: 370px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
     p {
       margin-right: 30px;
 
