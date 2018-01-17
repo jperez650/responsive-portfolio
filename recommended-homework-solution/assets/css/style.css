@@ -315,3 +315,72 @@ input[type=submit] {
     margin-left: 20px;
 }
 }
+
+@media screen and (max-width: 640px) {
+    #masthead {
+  position: static;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+    #logo {
+    float: left;
+    width: 100%;
+    margin: 0px;
+  }
+  nav {
+    float: left;
+  text-align: center;
+  margin-top: 0px;
+  padding: 15px;
+  width: 100%;
+  margin-left: -50px;
+}
+  nav a {
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 10px;
+    margin-left: 60px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+}
+  nav a:first-child {
+    border-left: 0 none;
+}
+  .sidebar {
+    float: left;
+    width: 95%;
+    max-width: 768px;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+ 
+}
+  .auth-image {
+  float: left;
+  width: 545px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  }
+  .main-section {
+    float: left;
+    width: 95%;
+    max-width: 768px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+  #main-container {
+  padding-top: 0px;
+}
+}
+
